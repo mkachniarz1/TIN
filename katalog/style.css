@@ -35,3 +35,22 @@ a:hover {
 ol.ol1{
     list-style-type: circle;
 }
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid tomato;
+ }
+ th{
+     background: tomato;
+ }
+ img{
+     border-radius: 8px;
+     border: 2px solid #ddd;
+     border-radius: 4px;
+ }
+ img:hover {
+    box-shadow: 0 0 2px 2px rgb(159, 209, 226);
+}
+p{
+    width: 50%;
+}
