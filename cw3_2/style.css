@@ -6,14 +6,14 @@ body {
 
 .main {
     background-color: white;
-    padding-left: 15%;
-    padding-right: 15%;
-    vertical-align: middle;
     padding-top: 25px;
+    padding-bottom: 25px;
+    border-style: dashed;
+    border-color: black;
 }
 
 img {
-    border-style: solid;
+    border-style: double;
     border-color: darkblue;
     max-height: 100%;
     max-width: 100%;
@@ -21,4 +21,32 @@ img {
     height: auto;
     display: block;
     margin: auto;
+}
+
+#news {
+    float: left;
+    border: none;
+    inline-size: 5%;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+article {
+    border-style: solid;
+    padding-left: 10px;
+    margin-left: 100px;
+    width: 60%;
+}
+
+.header {
+    overflow: auto;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+h1 {
+    margin-left: 20px;
+    border-bottom: solid;
+    width: fit-content;
 }
