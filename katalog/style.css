@@ -3,7 +3,8 @@ label {
     width: 250px;
     text-align: left;
 }
-label.check{
+
+label.check {
     width: auto;
 }
 
@@ -69,4 +70,29 @@ span.i {
 
 span.b {
     font-weight: bold;
+}
+
+.container {
+    background-color: rebeccapurple;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#dropDown, #textField, #tArea {
+    width: 45%;
+}
+
+label {
+    color: peachpuff;
+}
+
+input, textarea, select {
+    background-color: rgb(255, 127, 127);
+}
+
+input, textarea, select, .container{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
 }

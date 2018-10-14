@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl-PL">
+<html lang="zxx">
   <head>
     <meta charset="UTF-8">
     <title>Maciej Kachniarz TIN</title>
@@ -85,6 +85,7 @@
     <img src="astronaut.png" alt="Astronaut" width="512" height="512">
 
     <h2>Formularz</h2>
+    <div class="container">
     <form action="index.html" method="GET">
         <label for="textField">Pole tekstowe:</label>
         <input id="textField" name="pole tekstowe" type="text"/><br>
@@ -97,10 +98,10 @@
             <option value="opcja4">Opcja 4</option>
         </select><br>
 
-        <label for="tArea" name="Multiline">Pole tekstowe wielolinijkowe:</label>
+        <label for="tArea">Pole tekstowe wielolinijkowe:</label>
         <textarea id="tArea" rows="9"></textarea><br>
 
-        <label for="radio">Pola jednokrotnego wyboru (radio)</label>
+        <label>Pola jednokrotnego wyboru (radio)</label>
 
         
         <input id="radio1" type="radio" name="option" value="option1">
@@ -112,7 +113,7 @@
 
         
 
-        <label for="checkBox">Pola wielokrotnego wyboru</label>
+        <label>Pola wielokrotnego wyboru</label>
         <input id="checkBox1" type="checkbox" name="options1">
         <label class="check" for="checkBox1">Opcja 1</label>
         <input id="checkBox2" type="checkbox" name="options2">
@@ -123,6 +124,7 @@
         <input type="submit" value="Zatwierdź" />
         <input type="reset" value="Wyczyść" />
     </form>
+</div>
     
   </body>
 </html>
