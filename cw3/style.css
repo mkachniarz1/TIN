@@ -23,11 +23,13 @@ footer{
     padding: 2px;
 }
 img{
-    float: left;
     border-style: groove;
-    border-color: green;
+    border-color: rgb(0, 255, 0);
     border-radius: 30px;
 }
 #apple{
     float: right;
+}
+#logo{
+    float: left;
 }

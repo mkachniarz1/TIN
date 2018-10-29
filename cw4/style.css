@@ -1,0 +1,20 @@
+img {
+    width: auto;
+    height: auto;
+    transform: rotateZ(15deg) rotateX(50deg) rotateY(-20deg);
+    box-shadow: 15px 15px grey;
+    border-radius: 5%;
+    border-style: solid;
+    margin-bottom: 0px;
+}
+
+div {
+    text-align: center;
+}
+
+p {
+    position: relative;
+    font-size: 70px;
+    margin-top: 0px;
+    bottom: 90px;
+}
