@@ -1,0 +1,1 @@
+// Najdłuzsze słowo w ciągu

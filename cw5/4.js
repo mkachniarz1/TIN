@@ -1,6 +1,6 @@
 // Kolejność alfabetyczna liter
 
-function alphabeticalOrder(sentence) {
+function alphabeticallOrder(sentence) {
     var temp = new Array(sentence.length);
 
     for (i = 0; i < temp.length; i++) {
@@ -19,5 +19,5 @@ function compareNumbers(a, b) {
     return a - b
 }
 
-alphabeticalOrder("webmaster");
+alphabeticallOrder("webmaster");
 
