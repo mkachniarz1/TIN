@@ -18,4 +18,5 @@ function facto(number){
     }
     return result;
 }
+
 console.log(facto(6));
