@@ -1,7 +1,6 @@
-var factorial = function fact(number){
-    
-    console.log(Math.floor(number));
+// Silnia
 
+var factorial = function fact(number){
     if(number <= 1) return 1;
  
     return Math.floor(number) * fact(Math.floor(number) - 1);
