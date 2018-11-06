@@ -4,9 +4,10 @@ function IsPalindrom(sentence) {
     for (var i = 0; i < sen.length / 2; i++) {
         if (sen[i] != sen[sen.length - 1 - i]) {
             console.log("This is not a palindrom");            
-            return;
+            return false;
         }
     }
+    return true;
     console.log("This is a palindrom");
 }
 
