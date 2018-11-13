@@ -1,7 +1,8 @@
 // Liczba pierwsza
 
 function IsPrimeNum(num) {
-    if (num == 2 || num == 1) {
+    
+    if (num == 2) {
         console.log(`Liczba ${num} jest liczbą pierwszą.`);
         return true;
     }

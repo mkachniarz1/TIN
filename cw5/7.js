@@ -7,3 +7,4 @@ function type(param){
 
 type(12);
 type("12");
+type(type());

@@ -3,12 +3,14 @@ function IsPalindrom(sentence) {
 
     for (var i = 0; i < sen.length / 2; i++) {
         if (sen[i] != sen[sen.length - 1 - i]) {
-            console.log("This is not a palindrom");            
+            console.log("This is not a palindrom");
             return false;
         }
     }
-    return true;
     console.log("This is a palindrom");
+    return true;
 }
 
+
+IsPalindrom("Kobyła ma amały bok");
 IsPalindrom("Kobyła ma mały bok");
