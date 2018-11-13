@@ -7,7 +7,11 @@ function student(name, lastname, indexNr, grades) {
     this.grades = grades;
 
     this.getInfo = function () {
-        console.log(this.name + " " + this.lastname + " : " + this.grades);
+        sum = 0;
+        this.grades.forEach(function (element) {
+            sum += element;
+        });
+        console.log(this.name + " " + this.lastname + " : " + Math.round(sum / this.grades.length * 100) / 100);
     }
 }
 
