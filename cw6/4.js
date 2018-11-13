@@ -20,7 +20,9 @@ myObject.metoda2();
 myObject.metoda3();
 
 function objectTypes(obj){
-    console.log(obj);
+   for(param in obj){
+       console.log(param + " -> "+ typeof(obj[param]));
+   }
 }
 
 objectTypes(myObject);
