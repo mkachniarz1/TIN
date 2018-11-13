@@ -5,6 +5,10 @@ function amountToCoins(amount, coins) {
     var temp = amount;
     while (temp > 0) {
         for (i = 0; i < coins.length; i++) {
+            if (i == coins.length - 1 && temp < i) {
+                console.log("Nie mozna podac kwoty w danych nominałach");
+                return;
+            }
             if (temp >= coins[i]) {
                 temp -= coins[i];
                 res.push(coins[i]);
@@ -14,5 +18,5 @@ function amountToCoins(amount, coins) {
     }
     console.log(res.toString());
 }
-
-amountToCoins(46, [2, 1, 5, 25, 10]);
+console.log(52 % 25);
+amountToCoins(46, [2, 5, 25, 10]);
