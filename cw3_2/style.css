@@ -23,7 +23,7 @@ img {
     margin: auto;
 }
 
-#news {
+div.header img {
     float: left;
     border: none;
     width: 40px;
