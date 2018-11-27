@@ -12,6 +12,7 @@ function student(name, lastname, indexNr, grades) {
             sum += element;
         });
         console.log(this.name + " " + this.lastname + " : " + Math.round(sum / this.grades.length * 100) / 100);
+        
     }
 }
 

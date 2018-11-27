@@ -18,5 +18,4 @@ function amountToCoins(amount, coins) {
     }
     console.log(res.toString());
 }
-console.log(52 % 25);
 amountToCoins(46, [2, 5, 25, 10]);
