@@ -1,0 +1,23 @@
+html
+    head
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700")
+        link(rel="stylesheet" href="/css/main.css")
+    body
+        .menu
+            a.menu_item(href="/hello") Hello
+            a.menu_item(href="/form") Form
+        .wrapper
+            .lightbox(v-show="formLightbox == true" style="display: none;")
+            h2.lightbox__header 
+                form.lightbox__form(action="/formdata" method="POST")
+                    .lightbox__form-control
+                        label.lightbox__label What's your name?
+                        input.lightbox__input(placeholder="Name" type="text" name="name")
+                    .lightbox__form-control
+                        label.lightbox__label What's your last name?
+                        input.lightbox__input(placeholder="Last name" type="text" name="lastName")
+                    .lightbox__form-control
+                        label.lightbox__label What's your email?
+                        input.lightbox__input(placeholder="your@email.com" type="text" name="email")
+                    .lightbox__actions
+                        button.btn.btn--primary Submit
