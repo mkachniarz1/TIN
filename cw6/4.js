@@ -15,9 +15,9 @@ var myObject = {
     }
 }
 
-console.log(myObject.metoda1());
-myObject.metoda2();
-myObject.metoda3();
+// console.log(myObject.metoda1());
+// myObject.metoda2();
+// myObject.metoda3();
 
 function objectTypes(obj){
    for(param in obj){

@@ -1,6 +1,7 @@
 function TwoSecondNumbers(nums) {
     nums.sort(function (a, b) { return a - b; });
 
+    console.log(nums);
     var secMin, secMax, min, max;
     min = nums[0];
     max = nums[nums.length - 1];
@@ -21,5 +22,7 @@ function TwoSecondNumbers(nums) {
     console.log(`Druga najmniejsza liczba to ${secMin}`);
     console.log(`Druga najwieksza liczba to ${secMax}`);
 }
+
+
 
 TwoSecondNumbers([10, 10, 5, 2, 4, 5, 2, 1, 0, 33, 4, 7, 8, 5]);
