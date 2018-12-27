@@ -8,10 +8,7 @@ html
             a.menu_item(href="/form") Form
         .wrapper    
             .data 
-             form.formdata(action="/jsondata" method="POST") 
-                .lightbox__form-control
-                    h2(id="name" name="name")= dataname
-                    h2(id="lastName" name="lastName")= datalastname
-                    h2(id="email" name="email")= datamail
-                
+                h2= jsonname
+                h2= jsonlastname
+                h2= jsonmail
             

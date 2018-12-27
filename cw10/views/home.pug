@@ -1,0 +1,32 @@
+html
+    head
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700")
+        link(rel="stylesheet" href="/css/main.css")
+    body
+        .wrapper
+            .lightbox(v-show="formLightbox == true" style="display: none;")
+            h2.lightbox__header 
+                form.lightbox__form(action="/" method="POST")
+                    .lightbox__form-control
+                        label.lightbox__label First number
+                        input.lightbox__input(placeholder="First number" type="number" step="any" name="firstNumber")
+                    .lightbox__form-control
+                        label.lightbox__label Second number
+                        input.lightbox__input(placeholder="Second number" type="number" step="any" name="secondNumber")
+                    .lightbox__form-control
+                        .lightbox__operations
+                            .operation
+                                p.operation Add
+                                input.lightbox__input(placeholder="Operations" type="radio" name="opp" value="add") 
+                            .operation
+                                p.operation Sub
+                                input.lightbox__input(placeholder="Operations" type="radio" name="opp" value="sub")             
+                            .operation
+                                p.operation Mul
+                                input.lightbox__input(placeholder="Operations" type="radio" name="opp" value="mul")             
+                            .operation
+                                p.operation Div
+                                input.lightbox__input(placeholder="Operations" type="radio" name="opp" value="div")                        
+                    .lightbox__actions
+                        button.btn.btn--primary Calculate
+            h2(id="result")

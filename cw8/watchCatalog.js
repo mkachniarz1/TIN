@@ -9,7 +9,8 @@ process.argv.forEach((val, index, array) => {
 
 fs.watch(path, (event, filename) => {
     if (filename) {
-        fs.readFile(`${path}/${filename}`, 'utf8', function(err, contents) {
+        fs.readFile(`${path}/${filename}`, 'utf8', function (err, contents) {
+            console.log(`File ${filename} has been modified`);
             console.log(contents);
         });
     }
