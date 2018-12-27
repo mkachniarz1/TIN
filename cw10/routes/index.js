@@ -5,6 +5,6 @@ const AppController = require('../controllers/AppController');
 
 router.get('/', AppController.home);
 
-router.post('/', AppController.calculate);
+// router.post('/', AppController.controller);
 
 module.exports = router;

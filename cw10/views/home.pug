@@ -6,7 +6,7 @@ html
         .wrapper
             .lightbox(v-show="formLightbox == true" style="display: none;")
             h2.lightbox__header 
-                form.lightbox__form(action="/" method="POST")
+                form.lightbox__form(id="mainForm" action="" method="GET" name="mainForm")
                     .lightbox__form-control
                         label.lightbox__label First number
                         input.lightbox__input(placeholder="First number" type="number" step="any" name="firstNumber")
@@ -27,6 +27,5 @@ html
                             .operation
                                 p.operation Div
                                 input.lightbox__input(placeholder="Operations" type="radio" name="opp" value="div")                        
-                    .lightbox__actions
-                        button.btn.btn--primary Calculate
-            h2(id="result")
+        h2(id="result")
+        script(src="/js/app.js")

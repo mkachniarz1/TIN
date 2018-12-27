@@ -1,5 +1,5 @@
 body { margin: 0; background: #222; color: #fafafa; font-family: 'Montserrat', sans-serif; }
-.wrapper { display: flex; align-items: center; height: auto; padding: 0 15px; justify-content: center;  }
+.wrapper { display: flex; align-items: center; height: 100vh; padding: 0 75px; justify-content: center;  }
 
 /* logo */
 .logo { border: 1px solid rgba(255,255,255,.17); position: absolute; left: 75px; top: 25px; padding: 10px; width: 160px; }
@@ -41,5 +41,3 @@ body { margin: 0; background: #222; color: #fafafa; font-family: 'Montserrat', s
 .lightbox__operations p { font-size: 15px; }
 
 .lightbox__operations { display: flex; flex-direction: row; justify-content: space-between;}
-
-h2#result { display: flex; align-items: center; font-size: 50px; justify-content: center;}
